@@ -7,13 +7,13 @@ describe('react spec', () => {
   it('should visit localhost', () => {
     cy.visit('http://localhost:3000')
   })
-  it('should containts left to do', () => {
+  it('should contains left to do', () => {
     cy.contains('left to do')
   })
-  it('should containts Add Todo', () => {
+  it('should contains Add Todo', () => {
     cy.contains('Add Todo')
   })
-  it('should containts Clear Completed Todos', () => {
+  it('should contains Clear Completed Todos', () => {
     cy.contains('Clear Completed Todos')
   })
   it('should insert todo click Add todo', () => {
